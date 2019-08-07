@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46927483-52B3-46D0-801B-A49F29E09DC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollisionBox.cpp" />
+    <ClCompile Include="ColorChanger.cpp" />
+    <ClCompile Include="ColorChangerBlue.cpp" />
+    <ClCompile Include="ColorChangerGreen.cpp" />
+    <ClCompile Include="ColorChangerRed.cpp" />
+    <ClCompile Include="ColorChangerYellow.cpp" />
+    <ClCompile Include="ColoredCube.cpp" />
+    <ClCompile Include="CubeBlue.cpp" />
+    <ClCompile Include="CubeGreen.cpp" />
+    <ClCompile Include="CubePiece.cpp" />
+    <ClCompile Include="CubeRed.cpp" />
+    <ClCompile Include="CubeYellow.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyAll.cpp" />
+    <ClCompile Include="EnemyHor.cpp" />
+    <ClCompile Include="EnemyVer.cpp" />
+    <ClCompile Include="G.cpp" />
+    <ClCompile Include="imageloader.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Obstacles.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RmLevel3.cpp" />
+    <ClCompile Include="RmLevel4.cpp" />
+    <ClCompile Include="RmLevel5.cpp" />
+    <ClCompile Include="RmLevel6.cpp" />
+    <ClCompile Include="RmLevel7.cpp" />
+    <ClCompile Include="RoomBuilder.cpp" />
+    <ClCompile Include="Skull.cpp" />
+    <ClCompile Include="SkullBlue.cpp" />
+    <ClCompile Include="SkullGreen.cpp" />
+    <ClCompile Include="SkullRed.cpp" />
+    <ClCompile Include="SkullYellow.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="_Entity.cpp" />
+    <ClCompile Include="___main.cpp" />
+    <ClCompile Include="RmLevel1.cpp" />
+    <ClCompile Include="RmLevel2.cpp" />
+    <ClCompile Include="_Room.cpp" />
+    <ClCompile Include="__Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CollisionBox.h" />
+    <ClInclude Include="ColorChanger.h" />
+    <ClInclude Include="ColorChangerBlue.h" />
+    <ClInclude Include="ColorChangerGreen.h" />
+    <ClInclude Include="ColorChangerRed.h" />
+    <ClInclude Include="ColorChangerYellow.h" />
+    <ClInclude Include="ColoredCube.h" />
+    <ClInclude Include="CubeBlue.h" />
+    <ClInclude Include="CubeGreen.h" />
+    <ClInclude Include="CubePiece.h" />
+    <ClInclude Include="CubeRed.h" />
+    <ClInclude Include="CubeYellow.h" />
+    <ClInclude Include="declarations.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyAll.h" />
+    <ClInclude Include="EnemyHor.h" />
+    <ClInclude Include="EnemyVer.h" />
+    <ClInclude Include="G.h" />
+    <ClInclude Include="imageloader.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Obstacles.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="RmLevel1.h" />
+    <ClInclude Include="RmLevel2.h" />
+    <ClInclude Include="RmLevel3.h" />
+    <ClInclude Include="RmLevel4.h" />
+    <ClInclude Include="RmLevel5.h" />
+    <ClInclude Include="RmLevel6.h" />
+    <ClInclude Include="RmLevel7.h" />
+    <ClInclude Include="RoomBuilder.h" />
+    <ClInclude Include="Skull.h" />
+    <ClInclude Include="SkullBlue.h" />
+    <ClInclude Include="SkullGreen.h" />
+    <ClInclude Include="SkullRed.h" />
+    <ClInclude Include="SkullYellow.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="_Entity.h" />
+    <ClInclude Include="_Room.h" />
+    <ClInclude Include="__Game.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

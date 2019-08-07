@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Rooms">
+      <UniqueIdentifier>{afc4842b-2112-4d12-bae6-ddbbb93a1b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms">
+      <UniqueIdentifier>{3e0e7318-420c-4a1d-a714-636c4e902a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{3e2c5fab-52ba-45fe-815b-a1e5bc951a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{45a141d4-837e-4aa5-a852-fbcb3b4ae587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\ColorChanger">
+      <UniqueIdentifier>{f4ff2bf5-238e-482c-a023-e1de5e38a53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\ColoredCube">
+      <UniqueIdentifier>{cb2319f3-4d4b-422b-9e5f-7a9caa891115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Obstables">
+      <UniqueIdentifier>{3e82b204-3b07-4250-b005-5acfcecf8270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Skull">
+      <UniqueIdentifier>{c4ab04a6-d08f-4e9c-91f3-38d8ada5e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Enemy">
+      <UniqueIdentifier>{4ec9f4ce-cd97-4925-8934-1a2556e3f73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\ColorChanger">
+      <UniqueIdentifier>{7b6584f6-d0b0-4369-bd07-db3a19648ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\ColoredCube">
+      <UniqueIdentifier>{9f5b7721-75e3-4935-9f26-d2c707ab64d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Skull">
+      <UniqueIdentifier>{9e5180fc-6bc5-46cf-8044-344d1cd64538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Obstacles">
+      <UniqueIdentifier>{195a0592-853d-4dd8-8ae3-2cde08ba5fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Enemy">
+      <UniqueIdentifier>{a9d2af7e-3d7b-494f-a43d-a713a1e4b9c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="__Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="___main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel1.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel2.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="_Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imageloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChanger.cpp">
+      <Filter>Source Files\Entities\ColorChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChangerYellow.cpp">
+      <Filter>Source Files\Entities\ColorChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChangerBlue.cpp">
+      <Filter>Source Files\Entities\ColorChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChangerGreen.cpp">
+      <Filter>Source Files\Entities\ColorChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChangerRed.cpp">
+      <Filter>Source Files\Entities\ColorChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredCube.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeYellow.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeBlue.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeGreen.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubePiece.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeRed.cpp">
+      <Filter>Source Files\Entities\ColoredCube</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entities\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHor.cpp">
+      <Filter>Source Files\Entities\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacles.cpp">
+      <Filter>Source Files\Entities\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Entities\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>Source Files\Entities\Skull</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullYellow.cpp">
+      <Filter>Source Files\Entities\Skull</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullBlue.cpp">
+      <Filter>Source Files\Entities\Skull</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullGreen.cpp">
+      <Filter>Source Files\Entities\Skull</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullRed.cpp">
+      <Filter>Source Files\Entities\Skull</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyVer.cpp">
+      <Filter>Source Files\Entities\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAll.cpp">
+      <Filter>Source Files\Entities\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel3.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel7.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel4.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel5.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RmLevel6.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_Room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel1.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel2.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="_Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="declarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imageloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChanger.h">
+      <Filter>Header Files\Entities\ColorChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChangerYellow.h">
+      <Filter>Header Files\Entities\ColorChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChangerBlue.h">
+      <Filter>Header Files\Entities\ColorChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChangerGreen.h">
+      <Filter>Header Files\Entities\ColorChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChangerRed.h">
+      <Filter>Header Files\Entities\ColorChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ColoredCube.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeYellow.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeBlue.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeGreen.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubePiece.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeRed.h">
+      <Filter>Header Files\Entities\ColoredCube</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacles.h">
+      <Filter>Header Files\Entities\Obstables</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Entities\Obstables</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>Header Files\Entities\Skull</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullYellow.h">
+      <Filter>Header Files\Entities\Skull</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullBlue.h">
+      <Filter>Header Files\Entities\Skull</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullGreen.h">
+      <Filter>Header Files\Entities\Skull</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullRed.h">
+      <Filter>Header Files\Entities\Skull</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entities\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHor.h">
+      <Filter>Header Files\Entities\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAll.h">
+      <Filter>Header Files\Entities\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyVer.h">
+      <Filter>Header Files\Entities\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel3.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel7.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel4.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel5.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RmLevel6.h">
+      <Filter>Header Files\Rooms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
